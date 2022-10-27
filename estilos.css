@@ -1,3 +1,76 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face{
+	font-family: "Satoshi Regular";
+	src: url("sende/fonts/Satoshi-Regular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Satoshi Medium";
+	src: url("sende/fonts/Satoshi-Medium.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Poppins";
+	font-weight: normal, bold, lighter;
+	font-style: normal;
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+	background-color: #F7F7F6;
+}
+
+/*--------------------------ACÁ ARRANCA EL HEADER---------------------------------------*/
+
+header {
+	display: flex;
+	background-color:#0D9939;
+	width: 100%;
+}
+
+/*.botones{
+	display: flex;
+	width: 0;
+	justify-content: 0;
+	padding-top: 0;
+	font-family: "Poppins";
+    font-weight: normal;
+    font-size: 1.25em;
+    color: #F7F7F6;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------ACÁ ARRANCA EL MAIN---------------------------------------*/
+
+main {
+	background-color:#F7F7F6;
+	width: 100%;
+	height: 100vh;
+}
+
+p {
+	font-family: "Poppins";
+    font-weight: normal;
+	font-size: 1.125em;
+	line-height: 1.7em;
+	color:#1D1D1B;
+}
