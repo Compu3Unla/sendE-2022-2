@@ -34,9 +34,11 @@ header {
 	display: flex;
 	background-color:#0D9939;
 	width: 100%;
+    height: 110px;
+    position: fixed;
 }
 
-.logo{
+.contenedor{
     display: flex;
 }
 
