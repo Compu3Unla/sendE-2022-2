@@ -40,16 +40,13 @@ header {
     display: flex;
 }
 
-/*.botones{
+.botones{
 	display: flex;
-	width: 0;
-	justify-content: 0;
-	padding-top: 0;
 	font-family: "Poppins";
     font-weight: normal;
     font-size: 1.25em;
     color: #F7F7F6;
-}*/
+}
 
 
 
@@ -64,6 +61,7 @@ header {
 
 
 /*--------------------------ACÁ ARRANCA EL MAIN---------------------------------------*/
+
 
 main {
 	background-color:#F7F7F6;
