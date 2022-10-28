@@ -34,20 +34,20 @@ header {
 	display: flex;
 	background-color:#0D9939;
 	width: 100%;
-    height: 110px;
-    position: fixed;
+	height: 110px;
+	position: fixed;
 }
 
 .contenedor{
-    display: flex;
+	display: flex;
 }
 
 .botones{
 	display: flex;
 	font-family: "Poppins";
-    font-weight: normal;
-    font-size: 1.25em;
-    color: #F7F7F6;
+	font-weight: normal;
+	font-size: 1.25em;
+	color: #F7F7F6;
 }
 
 
@@ -73,7 +73,7 @@ main {
 
 p {
 	font-family: "Poppins";
-    font-weight: normal;
+	font-weight: normal;
 	font-size: 1.125em;
 	line-height: 1.7em;
 	color:#1D1D1B;
