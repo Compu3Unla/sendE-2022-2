@@ -21,60 +21,152 @@
 
 
 * {
-	margin: 0px;
+	margin:0px;
 	padding: 0px;
 	list-style: none;
+	text-decoration: none;
 	box-sizing: border-box;
-	background-color: #F7F7F6;
+	/*background-color: #F7F7F6;*/
 }
 
-/*--------------------------ACÁ ARRANCA EL HEADER---------------------------------------*/
 
-header {
-	display: flex;
-	background-color:#0D9939;
-	width: 100%;
-	height: 110px;
-	position: fixed;
-}
-
-.contenedor{
-	display: flex;
-}
-
-.botones{
-	display: flex;
+h1{
 	font-family: "Poppins";
-	font-weight: normal;
+	font-weight: bold;
+	font-size: 4em;
+	color: #0D9939;
+}
+h2{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+}
+h3{
+	font-family: "Poppins";
+	font-weight: 600;
 	font-size: 1.25em;
-	color: #F7F7F6;
+	color: #1D1D1B;
+}
+h5{
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 1.25em;
+	color: #1D1D1B;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------ACÁ ARRANCA EL MAIN---------------------------------------*/
-
-
-main {
-	background-color:#F7F7F6;
-	width: 100%;
-	height: 100vh;
+h4{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.25em;
+	color: #2AA8A5;
 }
-
 p {
 	font-family: "Poppins";
 	font-weight: normal;
 	font-size: 1.125em;
 	line-height: 1.7em;
 	color:#1D1D1B;
+}
+.bold {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.125em;
+	line-height: 1.7em;
+	color:#1D1D1B;
+}
+/*--------------------------ACÁ ARRANCA EL HEADER---------------------------------------*/
+
+header {
+	display: flex;
+	background-color:#0D9939;
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.contenedor{
+	display: flex;
+	max-width: 1360px;
+	width: 100%;
+}
+.botonera {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.botones{
+	display: flex;
+	font-family: "Poppins";
+	font-weight: normal;
+	font-size: 1.10em;
+	color: #F7F7F6;
+	width: 514px;
+	justify-content: space-between;
+}
+.boton:hover{
+	cursor: pointer;
+	color:#F7F7F6;
+	font-weight: 600;
+}
+.boton:link{
+	text-decoration: none;
+	color:#F7F7F6;
+}
+.boton:visited{
+	text-decoration: none;
+	color:#F7F7F6;
+}
+.boton:active{
+	color:#1D1D1B;
+}
+
+/*--------------------------ACÁ ARRANCA EL MAIN---------------------------------------*/
+
+main {
+	background-color:#F7F7F6;
+	width: 100%;
+	height: 100vh;
+}
+.banner{
+	width: 100%;
+	height: 538px;
+	background-image: url("img/banner.jpg")
+}
+.presentacion{
+	display: flex;
+	flex-direction: column;
+	padding: 100px 0 0 50px;
+	width: 35%;
+}
+
+.valores{
+	display: flex;
+	padding: 50px 50px 0 50px;
+	background-color: #F7F7F6;
+}
+.valoresiconos{
+	display: flex;
+	justify-content: center;
+}
+.seguridad .variedad .ecofriendly{
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+/*--------------------------ACÁ ARRANCA EL FOOTER---------------------------------------*/
+footer{
+	width: 100%;
+	height: 230px;
+	background-image: url("img/montañafooter.png")
 }
