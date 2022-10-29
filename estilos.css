@@ -41,6 +41,7 @@ h2{
 	font-weight: 600;
 	font-size: 1.625em;
 	color: #0D9939;
+	padding: 50px 50px 0 50px;
 }
 h3{
 	font-family: "Poppins";
@@ -53,6 +54,7 @@ h5{
 	font-weight: 500;
 	font-size: 1.25em;
 	color: #1D1D1B;
+	padding-top: 30px;
 }
 
 h4{
@@ -61,6 +63,7 @@ h4{
 	font-size: 1.25em;
 	color: #2AA8A5;
 }
+
 p {
 	font-family: "Poppins";
 	font-weight: normal;
@@ -81,6 +84,7 @@ header {
 	display: flex;
 	background-color:#0D9939;
 	width: 100%;
+	max-width: 1360px;
 	height: 75px;
 	position: fixed;
 	align-items: center;
@@ -113,14 +117,11 @@ header {
 	color:#F7F7F6;
 	font-weight: 600;
 }
-.boton:link{
+.boton:link, .boton:visited{
 	text-decoration: none;
 	color:#F7F7F6;
 }
-.boton:visited{
-	text-decoration: none;
-	color:#F7F7F6;
-}
+
 .boton:active{
 	color:#1D1D1B;
 }
@@ -135,7 +136,8 @@ main {
 .banner{
 	width: 100%;
 	height: 538px;
-	background-image: url("img/banner.jpg")
+	background-image: url("img/banner.jpg");
+	background-repeat: no-repeat;
 }
 .presentacion{
 	display: flex;
@@ -146,20 +148,227 @@ main {
 
 .valores{
 	display: flex;
-	padding: 50px 50px 0 50px;
+	width: 100%;
+	height: 410px;
+	padding: 0 50px 0 0;
 	background-color: #F7F7F6;
 }
 .valoresiconos{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	align-items: baseline;
+	width: 100%;
+	padding-top: 120px;
+	position: absolute;
 }
-.seguridad .variedad .ecofriendly{
+.seguridad, .variedad, .ecofriendly{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.partes{
+	background-color: #F7F7F6;
+}
+
+.labici{
+    position: relative;
+    display: inline-block;
+}
+.partesdetalle1{
+	display: flex;
 	flex-direction: column;
+	width: 397px;
+	height: 144px;
+	border-radius: 18px;
+	background-color: #F7F7F6;
+	position: absolute;
+	padding: 12px 12px 12px 18px;
+	top:110px;
+	left:50px;
+}
+.partesdetalle4{
+	display: flex;
+	flex-direction: column;
+	width: 397px;
+	height: 144px;
+	border-radius: 18px;
+	background-color: #F7F7F6;
+	position: absolute;
+	padding: 12px 12px 12px 18px;
+	top:450px;
+	left:850px;
+}
+.partesdetalle2, .partesdetalle3{
+	display: none;
+}
+.quieroalquilar{
+	display: flex;
 	justify-content: center;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #2AA8A5;
+	background-color: #F7F7F6;
+	position: absolute;
+	padding: 10px;
+	top:650px;
+	left:470px;
+	
+}
+.quieroalquilar:hover{
+	display: flex;
+	justify-content: center;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #2AA8A5;
+	position: absolute;
+	padding: 10px;
 }
 
+.vermas{
+	display: flex;
+	justify-content: center;
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 1.75em;
+	color: #0D9939;
+}
+.vermas:hover{
+	color: #2AA8A5;
+}
 
+.opiniones{
+	display: flex;
+	margin-top: 50px;
+	padding: 50px 50px 0 50px;
+	widows: 100%;
+	height: 467px;
+	background-image: url("img/texturaopiniones.jpg");
+}
+/*--------------------------ACÁ ARRANCA EL FORMULARIO--------------------------------------*/
 
+.formulario{
+	display: flex;
+	width: 100%;
+	height: 770px;
+	background-color: blue;
+	padding: 50px 50px 0 50px;
+}
+.dejaopinion{
+	flex-direction: column;
+	padding-top: 50px;
+	width: 50%;
+}
+.blanco{
+	font-family: "Poppins";
+	font-weight: normal;
+	font-size: 1.125em;
+	line-height: 1.7em;
+	color:#F7F7F6;
+}
+.boldblanco{
+	font-family: "Poppins";
+	font-weight: bold;
+	font-size: 1.40em;
+	line-height: 1.7em;
+	color:#F7F7F6;
+}
+.formhome{
+	height: 580px;
+	width: 553px;
+	position: absolute;
+	background: #F7F7F6;
+	border-radius: 18px;
+	padding: 50px;
+}
+
+.nombre{
+	background: #F7F7F6;
+	border: 2px solid #0D9939;
+	border-radius: 5px;
+	height: 35px;
+	font-family: "poppins";
+	font-size: 1em;
+	color: #1D1D1B;
+	padding: 4px;
+	width: 100%;
+	margin-top: 5px;
+}
+.mailytel{
+	display: flex;
+	margin-top: 10px;
+}
+.telefono{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 10px;
+}
+.correo{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 10px;
+}
+.tel {
+	display: flex;
+	background: #F7F7F6;
+	border: 2px solid #0D9939;
+	border-radius: 5px;
+	height: 35px;
+	font-family: "poppins";
+	font-size: 1em;
+	color: #1D1D1B;
+	padding: 4px;
+	width: 90%;
+	margin-top: 5px;
+}
+.mail {
+	display: flex;
+	background: #F7F7F6;
+	border: 2px solid #0D9939;
+	border-radius: 5px;
+	height: 35px;
+	font-family: "poppins";
+	font-size: 1em;
+	color: #1D1D1B;
+	padding: 4px;
+	width: 100%;
+	margin-top: 5px;
+}
+.mensaje{
+	margin-top: 10px;
+}
+.msj{
+	background: #F7F7F6;
+	border: 2px solid #0D9939;
+	border-radius: 9px;
+	height: 218px;
+	font-family: "poppins";
+	font-size: 1em;
+	color: #1D1D1B;
+	padding: 4px;
+	width: 100%;
+	margin-top: 5px;
+}
+.enviar{
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	background: #0D9939;
+	border-radius: 9px;
+	border: none;
+	height: 40px;
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 1.25em;
+	color: #F7F7F6;
+	padding: 4px;
+	width: 100%;
+	margin-top: 20px;
+}
 
 
 
@@ -168,5 +377,5 @@ main {
 footer{
 	width: 100%;
 	height: 230px;
-	background-image: url("img/montañafooter.png")
+	background-image: url("img/montañafooter.png");
 }
