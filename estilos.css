@@ -133,8 +133,9 @@ header {
 .boton:active{
 	color:#1D1D1B;
 }
+/*----------------------------------ACÁ ARRANCA EL MAIN----------------------------------------------*/
 
-/*--------------------------ACÁ ARRANCA EL MAIN---------------------------------------*/
+/*----------------------------------ACÁ ARRANCA EL BANNER--------------------------------------------*/
 
 main {
 	background-color:#F7F7F6;
@@ -153,7 +154,7 @@ main {
 	padding: 100px 0 0 50px;
 	width: 35%;
 }
-
+/*--------------------------ACÁ ARRANCA EL NUESTROS VALORES--------------------------------------*/
 .valores{
 	display: flex;
 	width: 100%;
@@ -174,6 +175,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+/*--------------------------ACÁ ARRANCA EL PARTES DE LA BICI--------------------------------------*/
 .partes{
 	background-color: #F7F7F6;
 }
@@ -246,7 +248,7 @@ align-items: center;
 .vermas:hover{
 	color: #2AA8A5;
 }
-
+/*--------------------------ACÁ ARRANCA EL RESEÑAS Y OPINIONES--------------------------------------*/
 .opiniones{
 	display: flex;
 	justify-content: space-between;
@@ -285,6 +287,13 @@ align-items: center;
 	color:#F7F7F6;
 	text-align: center;
 }
+
+.flechaderecha{
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
 /*--------------------------ACÁ ARRANCA EL FORMULARIO--------------------------------------*/
 
 .formulario{
@@ -422,9 +431,6 @@ align-items: center;
 	margin-top: 20px;
 	margin-right: 10px;
 }
-
-
-
 
 /*--------------------------ACÁ ARRANCA EL FOOTER---------------------------------------*/
 footer{
