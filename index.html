@@ -4,11 +4,14 @@
 		<meta charset="utf-8">
 		<title>SendE</title>
 		<link href="estilos.css" rel="stylesheet" type="text/css">
-
+		<link rel="icon" type="img" ref="img/favicon.svg">
+		<!------------ galería de img -------------->
+		<link  href="cssjs/jquery.fancybox.min.css" rel="stylesheet">
 	</head>
 
 	
 	<body>
+		<!------------------------------- HEADER -------------------------------------------->
 		<header>
 			<div class="contenedor">
 				<div class="logo">
@@ -25,7 +28,7 @@
 				</div>
 			</div>
 		</header>
-		
+		<!------------------------------- MAIN -------------------------------------------->
 		<main>
 			<section class="banner">
 				<div class="presentacion">
@@ -33,7 +36,7 @@
 					<h3>El lugar ideal para alquilar bicis el&eacute;ctricas y paseos grupales guiados por la ciudad de Tandil en Buenos Aires. </h3>
 				</div>
 			</section>
-			
+			<!------------------------------- VALORES -------------------------------------------->
 			<section class="valores">
 				<h2>Nuestros valores</h2>
 					<article class="valoresiconos">
@@ -51,6 +54,7 @@
 						</div>
 					</article>
 			</section>
+			<!------------------------------- NUESTRAS BICIS ------------------------------------------>
 			<section class="partes">
 				<h2>Nuestras Bicis</h2>
 					<article class="labici">
@@ -75,19 +79,23 @@
 							<h4> <a class="quieroalquilar" href="bicis.html" target="_blank">¡Quiero alquilar!</a></h4>
 					</article>
 			</section>
+			<!----------------------------- RECORRIDOS CARRUSEL ----------------------------------->
 			<section class="carruselhome">
 				<h2>Para disfrutar en familia</h2>
 					<article class="familiahome">
-				
-				
+						<a href="img/galeriahome/1.jpg" data-fancybox="gallery" data-caption="Sendero La Cantera"></a>
+							<img src="img/galeriahome/1.jpg" alt=""/>
 					</article>
 				<h2>Para experimentado/as</h2>
 					<article class="experimentadoshome">
 				
 				
 					</article>
-						<h6> <a class="vermas" href="paseos.html" target="_blank">Ver m&aacute;s</a></h6>
+						<div>
+							<h6> <a class="vermas" href="paseos.html" target="_blank">Ver m&aacute;s</a></h6>
+						</div>
 			</section>
+			<!----------------------------- RESEÑAS Y OPINIONES ----------------------------------->
 			<section class="opiniones">
 				<h2 class="h2blanco">Rese&ntilde;as y opiniones</h2>
 					<article class="personas">
@@ -109,7 +117,7 @@
 							<a class="flechaderecha"><img src="img/flechaderechab.svg" width="30px" height="44px" alt="Siguiente"></a>
 						</article>
 			</section>
-			
+			<!----------------------------- FORMULARIO ----------------------------------->
 			<section class="formulario">
 				<div class="dejaopinion">
 					<p class="boldblanco">¡Dejanos tus opiniones as&iacute; podemos mejorar!</p>
@@ -142,7 +150,7 @@
 				</div>
 			</section>
 		</main>
-		
+		<!----------------------------- FOOTER ----------------------------------->
 		<footer>
 				<div class="company">
 					<img src="img/logofooter.svg" width="40px" height="28px" alt=""/>
@@ -154,5 +162,9 @@
 					<a href="https://www.youtube.com" target="_blank"><img src="img/youtube.svg" width="40px" height="40px" alt=""/></a>
 				</div>
 		</footer>
+		
+	<!------------ javasc galería de img -------------->	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	</body>
 </html>
