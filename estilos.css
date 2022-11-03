@@ -484,12 +484,31 @@ footer{
 	width: 100%;
 	height: 230px;
 	background-image: url("img/montañafooter.png");
+	background-color: #F7F7F6;
+}
+
+.company{
+	padding: 100px 0 0 50px;
+}
+.redes{
+	display: flex;
+	padding: 10px 0 0 50px;
+	justify-content: space-between;
+	width: 15%;
 }
 /*--------------------------SOBRE NOSOTROS---------------------------------------------*/
+
+.nosotros{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+}
 .slider{
 	width: 100%;
 	height: 538;
 	overflow: hidden;
+	padding-bottom: 100px;
 }
 .slider ul{
 	display: flex;
@@ -515,96 +534,74 @@ footer{
 	75% {margin-left: -300%}
 	100% {margin-left: -300%}
 }
-.imgquienessomos{
-	display:flex;
-	justify-content: flex-end;
-	margin-right: 3%;
-	margin-top:4%;
-	padding-top:3%;
-	margin-bottom: 200px;
-	padding-right:50px;
-	border-color:#0D9939;
-	border-style:solid;
-	background-color:#0D9939;
-	border-width:0px;
-	height: 410px;
-	margin-left:40%;
-}
-.quienessomos{
-	display:flex;
-	flex-direction:column;
-	align-items:flex-start;
-	margin-left:3%;
-}
 .italica{
 	font-style:italic;
 	color:#0D9939;
+	font-weight: 600;
 }
-.imgnacimiento{
-	display:flex;
-	justify-content:flex-start;
-	margin-right: 48%;
-	margin-top:4%;
-	margin-bottom: 200px;
-	padding-top:3%;
+.comprometidos, .quienessomos{
+	display: flex;
+	padding: 20px 50px 100px 50px;
+}
+
+.nacimiento{
+	display: flex;
+	padding: 20px 50px 100px 50px;
+}
+.textonosotros{
+	width: 50%;
+	height: auto;
 	padding-left: 50px;
-	border-color:#0D9939;
-	border-style:solid;
-	background-color:#0D9939;
-	border-width:0px;
-	height: 520px;
-	margin-left:3%;
 }
-.nuestronacimiento{
-	margin-left: 3%;
+.textonosotrosizq{
+	width: 50%;
+	height: auto;
+	padding-right: 50px;
 }
-.imgcomprometidos{
+
+.cajanews{
 	display:flex;
-	justify-content: flex-end;
-	margin-right: 3%;
-	margin-top:4%;
-	margin-bottom: 200px;
-	padding-top:3%;
-	padding-right:50px;
-	border-color:#0D9939;
-	border-style:solid;
-	background-color:#0D9939;
-	border-width:0px;
-	height: 410px;
-	margin-left:41%;
-}
-.comprometidos{
-	margin-left:3%;
-}
-.cajanews{display:flex;
 	align-items:center;
 	background-image:url("img/newsletter.jpg");
 	backgroun-repeat:no-repeat;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 100px;
-	margin-top:200px;
 	flex-direction:column;
 	text-align: center;
-	width:1130;
-	height:388;
+	width: 100%;
+	height: 450px;
+	justify-content: center;
 }
 .newsletter{
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 100px;
-	margin-top:70px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	
 }
 .newsletter p{
-	color: #FFFFFF;
+	color: #F7F7F6;
 }
 .boldnews{
 	font-weight: bold;
 	font-size:35px;
 	margin-bottom:30px;
-	color: #FFFFFF;
+	color: #F7F7F6;
 	text-align: center;
 }
-.button{
+.suscribirme{
 	margin-top:50px;
+	cursor: pointer;
+	background: #F7F7F6;
+	border-radius: 9px;
+	border: none;
+	height: 40px;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1.25em;
+	color: #0D9939;
+	padding: 4px;
+	width: 50%;
+}
+.suscribirme:hover{
+	background: #1D1D1B;
+	color: #F7F7F6;
 }
