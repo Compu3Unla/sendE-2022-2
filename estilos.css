@@ -513,7 +513,7 @@ footer{
 .slider ul{
 	display: flex;
 	width: 400%;
-	animation: cambio 20s infinite alternate linear;
+	animation: cambio 15s infinite alternate linear;
 }
 .slider li{
 	width: 100%;
@@ -536,8 +536,13 @@ footer{
 }
 .italica{
 	font-style:italic;
-	color:#0D9939;
-	font-weight: 600;
+	color:#F7F7F6;
+	font-weight: 500;
+	background-color: #0D9939;
+	padding:10px;
+	width: 80%;
+	margin-top: 20px;
+	border-radius: 2px;
 }
 .comprometidos, .quienessomos{
 	display: flex;
