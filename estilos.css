@@ -596,15 +596,249 @@ footer{
 	width: 100%;
 	height: 230px;
 	background-image: url("img/montañafooter.png");
-	position: relative;
-	top: 20px;
-	padding: 100px 50px 0 50px;
-	display: flex;
-	flex-direction: column;
+	background-color: #F7F7F6;
+}
+
+.company{
+	padding: 100px 0 0 50px;
 }
 .redes{
 	display: flex;
-	width: 12%;
-	margin-top: 15px;
+	padding: 10px 0 0 50px;
+	justify-content: space-between;
+	width: 15%;
+}
+/*--------------------------SOBRE NOSOTROS---------------------------------------------*/
+
+.nosotros{
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+}
+.slider{
+	width: 100%;
+	height: 538;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.slider ul{
+	display: flex;
+	width: 400%;
+	animation: cambio 15s infinite alternate linear;
+}
+.slider li{
+	width: 100%;
+}
+.slider img{
+	width: 100%;
+}
+@keyframes cambio{
+	0% {margin-left: 0}
+	20% {margin-left: 0}
+
+	25% {margin-left: -100%}
+	45% {margin-left: -100%}
+
+	50% {margin-left: -200%}
+	70% {margin-left: -200%}
+
+	75% {margin-left: -300%}
+	100% {margin-left: -300%}
+}
+.italica{
+	font-style:italic;
+	color:#F7F7F6;
+	font-weight: 500;
+	background-color: #0D9939;
+	padding:10px;
+	width: 80%;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+.comprometidos, .quienessomos{
+	display: flex;
+	padding: 20px 50px 100px 50px;
+}
+
+.nacimiento{
+	display: flex;
+	padding: 20px 50px 100px 50px;
+}
+.textonosotros{
+	width: 50%;
+	height: auto;
+	padding-left: 50px;
+}
+.textonosotrosizq{
+	width: 50%;
+	height: auto;
+	padding-right: 50px;
+}
+
+.cajanews{
+	display:flex;
+	align-items:center;
+	background-image:url("img/newsletter.jpg");
+	backgroun-repeat:no-repeat;
+	flex-direction:column;
+	text-align: center;
+	width: 100%;
+	height: 450px;
+	justify-content: center;
+}
+.newsletter{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	
+}
+.newsletter p{
+	color: #F7F7F6;
+}
+.boldnews{
+	font-weight: bold;
+	font-size:35px;
+	margin-bottom:30px;
+	color: #F7F7F6;
+	text-align: center;
+}
+.suscribirme{
+	margin-top:50px;
+	cursor: pointer;
+	background: #F7F7F6;
+	border-radius: 9px;
+	border: none;
+	height: 40px;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1.25em;
+	color: #0D9939;
+	padding: 4px;
+	width: 50%;
+}
+.suscribirme:hover{
+	background: #1D1D1B;
+	color: #F7F7F6;
+}
+
+.formsesion{
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.sesion{
+	margin-top: 200px;
+}
+.sesion-registrarme{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.iniciarsesion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0 10px 0;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #2AA8A5;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1.25em;
+}
+
+.iniciarsesion:hover{
+	display: flex;
+	justify-content: center;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #0D9939;
+}
+.olvide{
+	color: #F7F7F6;
+}
+.olvide:hover{
+	cursor: pointer;
+	text-decoration:underline;
+}
+.sesion{
+	background-image: url("img/tandilsesion.jpg");
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+.labelsesion{
+	background: #F7F7F6;
+	border-radius: 9px;
+	border: none;
+	height: 40px;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1em;
+	color: #0D9939;
+	padding: 4px;
+	width: 100%;
+	margin: 8px;
+}
+
+/*------------------------------ALQUILÁ TU BICI----------------------------*/
+
+.puestos{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 150px 50px 20px 0;
+}
+.alquilerverde{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 30px 50px 10px 0;
+}
+
+.alquila{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+.comoalquilar{
+	display: flex;
+	flex-direction: column;
+	width:50%;
+	padding: 0 50px 10px 10px;
+}
+
+.alquiladatos{
+	display: flex;
 	justify-content: space-between;
 }
+
+.texto-form-verde {
+	color: #0D9939
+}
+
+.form-alquilar{
+	display: flex;
+	flex-direction: column;
+}
+
