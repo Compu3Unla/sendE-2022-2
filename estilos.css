@@ -682,3 +682,42 @@ footer{
 	width: 100%;
 	margin: 8px;
 }
+.puestos{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 150px 50px 20px 0;
+}
+.alquilerverde{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 30px 50px 10px 0;
+}
+
+.alquila{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+.comoalquilar{
+	display: flex;
+	flex-direction: column;
+	width:50%;
+	padding: 0 10px 10px 10px;
+}
+
+.alquiladatos{
+	display: flex;
+	justify-content: space-between;
+}
+.form-alquilar{
+	display: flex;
+	flex-direction: column;
+}
