@@ -515,7 +515,7 @@ h2 {
  }
 
 
-h5{
+.tituloppal{
 	font-weight: 700;
 	padding-left: 360px;
 	margin-top: -180px;
@@ -535,7 +535,7 @@ h5{
 }	
 	
 	
-p{
+.titulo{
  	font-family: "Poppins";
  	font-size: 17px;
 	font-weight: bold;
