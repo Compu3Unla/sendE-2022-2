@@ -610,3 +610,75 @@ footer{
 	background: #1D1D1B;
 	color: #F7F7F6;
 }
+
+.formsesion{
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.sesion{
+	margin-top: 200px;
+}
+.sesion-registrarme{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.iniciarsesion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0 10px 0;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #2AA8A5;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1.25em;
+}
+
+.iniciarsesion:hover{
+	display: flex;
+	justify-content: center;
+	width: 420px;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #0D9939;
+}
+.olvide{
+	color: #F7F7F6;
+}
+.olvide:hover{
+	cursor: pointer;
+	text-decoration:underline;
+}
+.sesion{
+	background-image: url("img/tandilsesion.jpg");
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+.labelsesion{
+	background: #F7F7F6;
+	border-radius: 9px;
+	border: none;
+	height: 40px;
+	font-family: "poppins";
+	font-weight: 600;
+	font-size: 1em;
+	color: #0D9939;
+	padding: 4px;
+	width: 100%;
+	margin: 8px;
+}
