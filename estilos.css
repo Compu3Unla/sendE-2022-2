@@ -510,25 +510,21 @@ ul li{
 
 .buscador{
 	position: absolute;
-	top: 170px;
-	left: 25%;
+	top: 163px;
+	left: 67%;
 }
 
 .buscador	input[type=text]{
 	box-sizing: content-box;
 	padding: 9px 10px;
 	border-radius: 6px;
-	width: 70%;
+	width: 100%;
 	background-color:#FFFFFF;
 	color: #1D1D1B;
 	font-family: "Poppins";
 	font-size: 0.9em;
 	z-index: 10;
 }
-
-
-
-
 
 	
 	
@@ -563,11 +559,14 @@ ul li{
 	padding-right: 20px;
 }
 
-.fa-heart a:hover{
-	color: blue;
+	
+.fa-heart:active{
+	color:gold;
 }
-	
-	
+
+.fa-bolt-lightning {
+	color: #0D9939;	
+}	
 	
 
 		
