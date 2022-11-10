@@ -511,10 +511,11 @@ ul li{
 .buscador{
 	position: absolute;
 	top: 163px;
-	left: 67%;
+	left: 65%;
+	width: 30%;
 }
 
-.buscador	input[type=text]{
+.buscador input[type=text]{
 	box-sizing: content-box;
 	padding: 9px 10px;
 	border-radius: 6px;
@@ -553,7 +554,8 @@ ul li{
 }
 
 .fa-heart{
-	color: gray;
+	cursor: pointer;
+	color: grey;
 	display:flex;
 	justify-content:flex-end;
 	padding-right: 20px;
@@ -561,32 +563,13 @@ ul li{
 
 	
 .fa-heart:active{
-	color:gold;
+	color:#0D9939;
 }
+
 
 .fa-bolt-lightning {
 	color: #0D9939;	
-}	
-	
-
-		
-
-	
-
-
-	
-	
-
-	
-	
-		
-
-
-
-
-
-
-
+}
 /*--------------------------ACÁ ARRANCA EL FOOTER---------------------------------------*/
 footer{
 	width: 100%;
@@ -772,7 +755,7 @@ footer{
 .sesion{
 	background-image: url("img/tandilsesion.jpg");
 	background-repeat: no-repeat;
-	background: contain;
+	width: auto;
 	height: auto;
 	display: flex;
 	justify-content: center;
