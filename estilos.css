@@ -33,6 +33,7 @@ h2{
 	color: #F7F7F6;
 	width: 100%;
 	margin-bottom: 20px;
+	padding: 0;
 }
 h3{
 	font-family: "Poppins";
@@ -70,20 +71,21 @@ p {
 	line-height: 1.7em;
 	color:#1D1D1B;
 }
+/*--------------------------PANTALLA HOME---------------------------------------*/
+
 /*--------------------------ACÁ ARRANCA EL HEADER---------------------------------------*/
 
 header {
 	display: flex;
+	justify-content: center;
 	background-color:#0D9939;
 	background-repeat: no-repeat;
 	width: 100%;
-	max-width: 1360px;
 	height: 75px;
 	position: fixed;
 	z-index: 20;
 	align-items: center;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 0 50px;
 }
 
 .contenedor{
@@ -124,14 +126,18 @@ header {
 /*----------------------------------ACÁ ARRANCA EL BANNER--------------------------------------------*/
 
 main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-color:#F7F7F6;
 	width: 100%;
 }
 .banner{
 	width: 100%;
 	height: 538px;
-	background-image: url("img/banner.jpg");
+	background: linear-gradient(90.15deg, rgba(219, 244, 229, 0.8) 0.12%, rgba(157, 192, 151, 0) 48.32%), url("img/banner.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .presentacion{
 	display: flex;
@@ -232,6 +238,11 @@ align-items: center;
 	padding: 10px;
 }
 /*--------------------------ACÁ ARRANCA PASEOS RECOMENDADOS--------------------------------------*/
+.recomendados{
+	width: 100%;
+	max-width: 1360px;
+}
+
 .experimentadoshome, .familiarhome{
 	padding: 50px 0 80px 50px;
 	display: grid;
@@ -284,30 +295,30 @@ opacity: 70%;
 /*--------------------------ACÁ ARRANCA EL RESEÑAS Y OPINIONES--------------------------------------*/
 .opiniones{
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
 	margin-top: 50px;
-	padding: 20px 50px 0 0px;
+	padding: 50px 50px;
 	width: 100%;
-	height: 550px;
 	background-image: url("img/texturaopiniones.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 .personas{
 	display: flex;
 	align-items:baseline;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .opinion{
 	text-align: center;
 	font-family: "Poppins";
 	font-weight: bold;
-	font-size: 1em;
-	line-height: 1.7em;
+	font-size: 1.2em;
+	line-height: 1.8em;
 	color:#F7F7F6;
 	padding-top: 20px;
-	width:100%;
+	width:75%;
 }
 
 .op1, .op2, .op3{
@@ -319,7 +330,7 @@ opacity: 70%;
 }
 
 .nombreusuario{
-	font-size: 0.9em;
+	font-size: 1em;
 	color:#F7F7F6;
 	text-align: center;
 }
@@ -334,12 +345,13 @@ opacity: 70%;
 
 .formulario{
 	display: flex;
+	justify-content: center;
 	width: 100%;
-	height: 770px;
-	background-image: url("img/piedra.jpg");
-	background-size: contain;
+	height: auto;
+	background: linear-gradient(180deg, rgba(230, 230, 220, 0) 70.68%, #F7F7F6 100%), url("img/piedra.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 50px 50px 0 50px;
+	padding: 50px;
 }
 .dejaopinion{
 	flex-direction: column;
@@ -472,6 +484,8 @@ opacity: 70%;
 
 /*-------------------------ACA ARRANCA LA PANTALLA DE PASEOS--------------------------*/
 
+/*--------------------------ACÁ ARRANCA EL MAIN PASEOS---------------------------------------*/
+
 .paseos{
 	padding-left: 50px;
 	width: 15%;
@@ -484,12 +498,14 @@ opacity: 70%;
 	font-weight: 500;
 	text-decoration-line: underline;
 }
-
+/*----------------------------------ACÁ ARRANCA EL GALERIA/CARDS-------------------------------------*/
 
 .card{
 	padding-left: 25%;
+	max-width: 1350px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	padding-right: 50px;
 }
 .cajas{
@@ -575,26 +591,10 @@ ul li{
 .fa-bolt-lightning {
 	color: #0D9939;	
 }
-/*--------------------------ACÁ ARRANCA EL FOOTER---------------------------------------*/
-footer{
-	width: 100%;
-	height: 100%;
-	background-image: url("img/montañafooter.png");
-	background-repeat: no-repeat;
-	background-color: #F7F7F6;
-}
 
-.company{
-	padding: 80px 0 0 50px;
-}
-.redes{
-	display: flex;
-	padding: 10px 0 0 50px;
-	justify-content: space-between;
-	width: 35%;
-	align-items: center;
-}
-/*--------------------------SOBRE NOSOTROS---------------------------------------------*/
+/*--------------------------ACÁ ARRANCA PANTALLA SOBRE NOSOTROS---------------------------------------*/
+
+/*--------------------------ACÁ ARRANCA BANNER/SLIDER---------------------------------------*/
 
 .nosotros{
 	font-family: "Poppins";
@@ -639,6 +639,13 @@ footer{
 	width: 90%;
 	margin-top: 20px;
 }
+
+/*--------------------------ACÁ ARRANCA MAIN SOBRE NOSOTROS---------------------------------------*/
+.mainsobrenosotros{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 .comprometidos, .quienessomos{
 	display: flex;
 	padding: 20px 50px 100px 50px;
@@ -658,17 +665,17 @@ footer{
 	height: auto;
 	padding-right: 50px;
 }
-
+/*--------------------------ACÁ ARRANCA CAJA NEWS SOBRE NOSOTROS-------------------------------------*/
 .cajanews{
 	display:flex;
 	align-items:center;
-	background-image:url("img/newsletter.jpg");
+	background: linear-gradient(180deg, rgba(230, 230, 220, 0) 60.48%, #F7F7F6 100%), url("img/newsletter.jpg");
 	background-size: contain;
 	backgroun-repeat:no-repeat;
 	flex-direction:column;
 	text-align: center;
 	width: 100%;
-	height: 450px;
+	padding: 80px 0;
 	justify-content: center;
 }
 .newsletter{
@@ -706,10 +713,60 @@ footer{
 	background: #1D1D1B;
 	color: #F7F7F6;
 }
+
+/*------------------------------ACÁ ARRANCA PANTALLA ALQUILÁ TU BICI----------------------------*/
+
+/*------------------------------ACÁ ARRANCA MAIN ALQUILÁ TU BICI----------------------------*/
+
+.puestos{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 150px 50px 20px 0;
+}
+.texto-form-verde {
+	color: #0D9939
+}
+
+/*------------------------------ACÁ ARRANCA FORM ALQUILÁ TU BICI----------------------------*/
+.alquilerverde{
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.625em;
+	color: #0D9939;
+	padding: 30px 50px 10px 0;
+}
+
+.alquila{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+.comoalquilar{
+	display: flex;
+	flex-direction: column;
+	width:50%;
+	padding: 0 50px 10px 10px;
+}
+
+.alquiladatos{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-alquilar{
+	display: flex;
+	flex-direction: column;
+}
+
 /*--------------------------ACÁ ARRANCA EL INDEX INCIO SESIÓN--------------------------------------*/
 .formsesion{
 	display: flex;
-	align-content: center;
 	flex-direction: column;
 	align-items: center;
 }
@@ -719,7 +776,6 @@ footer{
 .sesion-registrarme{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 20px;
 	cursor: pointer;
@@ -758,6 +814,7 @@ footer{
 .sesion{
 	background-image: url("img/tandilsesion.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	width: auto;
 	height: auto;
 	display: flex;
@@ -779,51 +836,27 @@ footer{
 	width: 100%;
 	margin: 8px;
 }
-
-/*------------------------------ALQUILÁ TU BICI----------------------------*/
-
-.puestos{
+/*--------------------------ACÁ ARRANCA EL FOOTER---------------------------------------*/
+footer{
 	display: flex;
 	flex-direction: column;
-	font-family: "Poppins";
-	font-weight: 600;
-	font-size: 1.625em;
-	color: #0D9939;
-	padding: 150px 50px 20px 0;
-}
-.alquilerverde{
-	display: flex;
-	flex-direction: column;
-	font-family: "Poppins";
-	font-weight: 600;
-	font-size: 1.625em;
-	color: #0D9939;
-	padding: 30px 50px 10px 0;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-image: url("img/montañafooter.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F7F7F6;
+	padding: 15px 0 30px 50px;
 }
 
-.alquila{
-	display: flex;
-	flex-direction: column;
-	padding-left: 50px;
+.company{
+	padding-top: 80px;
 }
-.comoalquilar{
+.redes{
 	display: flex;
-	flex-direction: column;
-	width:50%;
-	padding: 0 50px 10px 10px;
-}
-
-.alquiladatos{
-	display: flex;
+	padding-top: 10px;
 	justify-content: space-between;
+	width: 35%;
+	align-items: center;
 }
-
-.texto-form-verde {
-	color: #0D9939
-}
-
-.form-alquilar{
-	display: flex;
-	flex-direction: column;
-}
-
