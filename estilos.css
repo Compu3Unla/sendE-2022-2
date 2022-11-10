@@ -71,7 +71,7 @@ p {
 	line-height: 1.7em;
 	color:#1D1D1B;
 }
-/*--------------------------PANTALLA HOME---------------------------------------*/
+/*------------------------------------PANTALLA HOME-----------------------------------------*/
 
 /*--------------------------ACÁ ARRANCA EL HEADER---------------------------------------*/
 
@@ -860,3 +860,124 @@ footer{
 	width: 35%;
 	align-items: center;
 }
+/* -------------------------------- ACÁ ARRANCA PARA MOBILE 600px -------------------------------- */
+/* -------------------------------- ACÁ ARRANCA PARA MOBILE 600px -------------------------------- */
+/* -------------------------------- ACÁ ARRANCA PARA MOBILE 600px -------------------------------- */
+@media screen and (max-width:600px){
+/* -------------------------------- ACÁ ARRANCA HOME MOBILE-------------------------------- */
+.presentacion{
+	padding: 100px 80px 20px 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+/*--------------------------ACÁ ARRANCA EL NUESTROS VALORES MOBILE------------------------------------*/
+.valores{
+	display: flex;
+	width: 100%;
+	padding: 40px 80px 80px 80px;
+	justify-content: center;
+	background-color: #F7F7F6;
+}
+.valoresiconos{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	padding-top: 120px;
+	position: absolute;
+}
+.seguridad, .variedad, .ecofriendly{
+font-size: 0.8em;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+	/*--------------------------ACÁ ARRANCA EL PARTES DE LA BICI MOBILE-------------------------------*/
+.partes{
+	background-color: #F7F7F6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.labici{
+	position: relative;
+	display: inline-block;
+	padding-top: 40px;
+}
+.partesdetalle1{
+	display: flex;
+	flex-direction: column;
+	width: 397px;
+	height: 144px;
+	border-radius: 18px;
+	background-color: #F7F7F6;
+	position: absolute;
+	padding: 12px 12px 12px 18px;
+	top:110px;
+	left:50px;
+}
+.punto{
+	display: flex;
+	position: absolute;
+	top:110px;
+	left:480px;
+	cursor: pointer;
+}
+.partesdetalle2, .partesdetalle3, .partesdetalle4{
+	display: none;
+}
+.quieroalquilar{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-radius: 9px;
+	color: #2AA8A5;
+	background-color: #F7F7F6;
+	position: absolute;
+	padding: 10px;
+	top:50%;
+	width: 50%;
+	
+}
+.quieroalquilar:active{
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	border-radius: 9px;
+	color: #F7F7F6;
+	background-color: #2AA8A5;
+	position: absolute;
+	padding: 10px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
