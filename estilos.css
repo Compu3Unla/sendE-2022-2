@@ -239,6 +239,9 @@ align-items: center;
 }
 /*--------------------------ACÁ ARRANCA PASEOS RECOMENDADOS--------------------------------------*/
 .recomendados{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	width: 100%;
 	max-width: 1360px;
 }
