@@ -884,13 +884,20 @@ display:none
 	background-size:cover;
 	background-repeat:no repeat;
 }
-	.valores, .partes, .opiniones{
-		display:none;
-	}
 
 .recomendados h2{
 	font-size:1.3em;
 }
+.galeriahome1{
+	background-color: #0D9939;
+	width: 214px;
+	height: 245px;
+	border-radius: 9px;
+	box-shadow: 5px 5px 5px 0px #d5d5d2;
+	}
+	.valores,.partes, .opiniones, .footer{
+		display:none;
+	}
 /*--------------------------ACÁ ARRANCA EL NUESTROS VALORES MOBILE------------------------------------*/
 .valores{
 	display: flex;
