@@ -15,8 +15,16 @@
 		<!----------------------- HEADER ----------------------------------------------------->
 		<header>
 			<div class="contenedor">
-				<div class="logo">
-					<a href="home.html" target="_self"> <img src="img/logoblanco.svg" width="68px" height="47px" alt=""/></a>
+				<div class="menu-logo-perfil">
+					<button class="abrir-menu" aria-label="Abrir menú">
+						<img src="img/menu-hamburguesa 1.svg" alt="Abrir menu">
+					</button>
+					<div class="logo">
+						<a href="home.html" target="_self"> <img src="img/logoblanco.svg" width="68px" height="47px" alt=""/></a>
+					</div>
+					<button class="perfil" aria-label="Perfil">
+						<img src="img/Icono-perfil 1.svg" alt="Perfil">
+					</button>
 				</div>
 				<div class="botonera">
 					<nav>
@@ -39,7 +47,7 @@
 						<!--------------------------------- FORMULARIO ----------------------------------->
 						<div class="comoalquilar">
 							<p class="texto-form-verde">Complet&aacute; el formulario, recib&iacute; tu c&oacute;digo y retir&aacute; por el puesto que prefieras (ver mapa)</p>
-							<p> Pod&eacute;s abonar online con tarjeta de d&eacute;bito, cr&eacute;dito, Mercado Pago o en efectivo directamente en cualquiera de nuestros puestos al momento de retirar tu bici.</p>
+							<p class="texto-form-abonar"> Podés abonar online con tarjeta de débito, crédito, Mercado Pago o en efectivo directamente en cualquiera de nuestros puestos al momento de retirar tu bici.</p>
 							<h2 class="alquilerverde">Quiero alquilar</h2>
 							<form class="form-alquilar">
 								<p>Nombre/s</p>
@@ -48,8 +56,16 @@
 								<input type="text" class="nombre">
 								<p>N° de documento</p>
 								<input type="text" class="nombre">
-								<p>M&eacute;todo de pago</p>
-								<input type="text" class="nombre">
+								<p>M&eacute;todos de pago</p>
+								<select class="nombre">
+									<optgroup label="Tarjeta">
+										<option>D&eacute;bito</option>
+										<option>Cr&eacute;dito</option>
+									</optgroup>
+									<optgroup label="Otros">
+										<option>Efectivo</option>
+									</optgroup>
+								</select>
 								<div>
 									<input type="button" value="Aceptar" class="enviar">
 								</div>
