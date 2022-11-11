@@ -715,7 +715,7 @@ ul li{
 
 /*------------------------------ACÁ ARRANCA MAIN ALQUILÁ TU BICI----------------------------*/
 
-.puestos{
+.puestos {
 	display: flex;
 	flex-direction: column;
 	font-family: "Poppins";
@@ -729,8 +729,9 @@ ul li{
 }
 
 /*------------------------------ACÁ ARRANCA FORM ALQUILÁ TU BICI----------------------------*/
-.alquilerverde{
+.alquilerverde {
 	display: flex;
+	width: 50%;
 	flex-direction: column;
 	font-family: "Poppins";
 	font-weight: 600;
@@ -744,21 +745,29 @@ ul li{
 	flex-direction: column;
 	padding-left: 50px;
 }
-.comoalquilar{
+.comoalquilar {
 	display: flex;
 	flex-direction: column;
 	width:50%;
 	padding: 0 50px 10px 10px;
 }
 
-.alquiladatos{
+.alquiladatos {
 	display: flex;
 	justify-content: space-between;
 }
 
-.form-alquilar{
+.texto-form-verde {
+	color: #0D9939;
+}
+
+.form-alquilar {
 	display: flex;
 	flex-direction: column;
+}
+
+.abrir-menu, .perfil {
+	display: none;
 }
 
 /*--------------------------ACÁ ARRANCA EL INDEX INCIO SESIÓN--------------------------------------*/
@@ -861,6 +870,26 @@ footer{
 /* -------------------------------- ACÁ ARRANCA PARA MOBILE 600px -------------------------------- */
 /* -------------------------------- ACÁ ARRANCA PARA MOBILE 600px -------------------------------- */
 @media screen and (max-width:600px){
+	/*---------------------------------HEADER MOBILE--------------------------------------- */
+.botonera {
+	display: none;
+}
+	
+.abrir-menu, .cerrar-menu, .perfil {
+	display: block;
+}
+	
+.abrir-menu, .perfil {
+	border: none;
+	background: none;
+}
+	
+.menu-logo-perfil {
+	display: flex;
+	justify-content: space-between
+}
+	
+/* --------------------------------- TERMINA HEADER MOBILE -------------------------------- */
 /* -------------------------------- ACÁ ARRANCA HOME MOBILE-------------------------------- */
 .presentacion{
 	padding: 100px 80px 20px 80px;
@@ -946,26 +975,85 @@ opacity: 70%;
 	color: #2AA8A5;
 }
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+/*---------------------------------- ACA ARRANCA ALQUILA TU BICI MOBILE ----------------- */
+.puestos {
+		padding: 100px 0 20px 40px
 	}
+	
+.mapa {
+	width: 520px;
+	height: 480px;
+}
+	
+.contenedor {
+	height: 100px;
+	width: 100%;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+	
+.alquiladatos {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	
+.texto-form-verde {
+	text-align: center;
+	padding: 40px 0px 20px 0px;
+	width: 100%;
+	box-sizing: none;
+}
+	
+.texto-form-abonar {
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+	width: 100%;
+}
+	
+.alquilerverde {
+	padding: 0px 0px 10px 0;
+	width: auto;
+}
+	
+.form-alquilar {
+	width: 400px;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.alquila {
+	padding-left: 0px;
+}
+	
+.comoalquilar {
+	align-items: center;
+}
+	
+footer {
+	display: none;
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
