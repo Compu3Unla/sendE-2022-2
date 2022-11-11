@@ -875,19 +875,21 @@ footer{
 display:none
 }
 .presentacion h1{
-	color:white;
+	color:#F7F7F6;
 }
 .banner{
 	background-image:url("img/mobilebannerhome.jpg");
 	width:100%;
 	height:auto;
 	background-size:cover;
-	background-repeat:no repeat;
+	background-repeat:no-repeat;
 }
+.valores,.partes, .opiniones, .footer{
+		display:none;
+	}
+	
 
-.recomendados h2{
-	font-size:1.3em;
-}
+
 .galeriahome1{
 	background-color: #0D9939;
 	width: 214px;
@@ -895,92 +897,54 @@ display:none
 	border-radius: 9px;
 	box-shadow: 5px 5px 5px 0px #d5d5d2;
 	}
-	.valores,.partes, .opiniones, .footer{
-		display:none;
-	}
-/*--------------------------ACÁ ARRANCA EL NUESTROS VALORES MOBILE------------------------------------*/
-.valores{
+	
+.recomendados{
 	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	width: 100%;
-	padding: 40px 80px 80px 80px;
-	justify-content: center;
-	background-color: #F7F7F6;
+	max-width: 600px;
 }
-.valoresiconos{
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-	padding-top: 120px;
-	position: absolute;
-}
-.seguridad, .variedad, .ecofriendly{
-font-size: 0.8em;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-	/*--------------------------ACÁ ARRANCA EL PARTES DE LA BICI MOBILE-------------------------------*/
-.partes{
-	background-color: #F7F7F6;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
+.recomendados h2{
+	font-size:1.3em;}
 
-.labici{
-	position: relative;
-	display: inline-block;
-	padding-top: 40px;
+.experimentadoshome, .familiarhome{
+	padding: 30px;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.partesdetalle1{
-	display: flex;
-	flex-direction: column;
-	width: 397px;
-	height: 144px;
-	border-radius: 18px;
-	background-color: #F7F7F6;
-	position: absolute;
-	padding: 12px 12px 12px 18px;
-	top:110px;
-	left:50px;
-}
-.punto{
-	display: flex;
-	position: absolute;
-	top:110px;
-	left:480px;
-	cursor: pointer;
-}
-.partesdetalle2, .partesdetalle3, .partesdetalle4{
-	display: none;
-}
-.quieroalquilar{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 50px;
+.galeriahome2, .galeriahome1{
+	background-color: #0D9939;
 	border-radius: 9px;
+	box-shadow: 5px 5px 5px 0px #d5d5d2;
+	margin: 15px;
+}
+.paseo1:active, .paseo2:active{
+opacity: 70%;
+}
+.nombrepaseo{
+	display: flex;
+	justify-content: center;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 1.1em;
+	padding-top: 10px;
+	line-height: 1.7em;
+	color:#F7F7F6;
+}
+.vermas{
+	display: flex;
+	justify-content: center;
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 1.75em;
+	color: #0D9939;
+	padding-top: 20px;
+}
+.vermas:active{
 	color: #2AA8A5;
-	background-color: #F7F7F6;
-	position: absolute;
-	padding: 10px;
-	top:50%;
-	width: 50%;
-	
 }
-.quieroalquilar:active{
-	display: flex;
-	justify-content: center;
-	height: 50px;
-	border-radius: 9px;
-	color: #F7F7F6;
-	background-color: #2AA8A5;
-	position: absolute;
-	padding: 10px;
-}
-	
-	
 	
 	
 	
