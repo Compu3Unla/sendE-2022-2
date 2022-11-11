@@ -257,8 +257,6 @@ align-items: center;
 	scrollbar-width: thin;
 	scrollbar-color: #0D9939 #F7F7F6;
 }
-
-
 .galeriahome2, .galeriahome1{
 	background-color: #0D9939;
 	width: 214px;
@@ -269,8 +267,6 @@ align-items: center;
 .paseo1:hover, .paseo2:hover{
 opacity: 70%;
 }
-
-
 .nombrepaseo{
 	display: flex;
 	justify-content: center;
@@ -281,8 +277,6 @@ opacity: 70%;
 	line-height: 1.7em;
 	color:#F7F7F6;
 }
-	
-
 .vermas{
 	display: flex;
 	justify-content: center;
@@ -876,6 +870,26 @@ footer{
 	align-items: center;
 	text-align: center;
 	width: 100%;
+}
+.presentacion h3{
+display:none
+}
+.presentacion h1{
+	color:white;
+}
+.banner{
+	background-image:url("img/mobilebannerhome.jpg");
+	width:100%;
+	height:auto;
+	background-size:cover;
+	background-repeat:no repeat;
+}
+	.valores, .partes, .opiniones{
+		display:none;
+	}
+
+.recomendados h2{
+	font-size:1.3em;
 }
 /*--------------------------ACÁ ARRANCA EL NUESTROS VALORES MOBILE------------------------------------*/
 .valores{
