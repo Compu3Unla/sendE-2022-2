@@ -132,6 +132,9 @@ main {
 	background-color:#F7F7F6;
 	width: 100%;
 }
+.botonsos{
+	display: none;
+}
 .banner{
 	width: 100%;
 	height: 538px;
@@ -891,6 +894,14 @@ footer{
 	
 /* --------------------------------- TERMINA HEADER MOBILE -------------------------------- */
 /* -------------------------------- ACÁ ARRANCA HOME MOBILE-------------------------------- */
+	
+.botonsos{
+	display: flex;
+	top: 400px;
+	left: 80%;
+	position: fixed;
+	z-index: 30;
+	}
 .presentacion{
 	padding: 100px 80px 20px 80px;
 	display: flex;
@@ -918,7 +929,7 @@ display:none
 	}
 	
 
-
+/* -------------------------------- ACÁ ARRANCA PASEOS MOBILE-------------------------------- */
 .galeriahome1{
 	background-color: #0D9939;
 	width: 214px;
@@ -969,21 +980,61 @@ opacity: 70%;
 	font-weight: 500;
 	font-size: 1.75em;
 	color: #0D9939;
-	padding-top: 20px;
+	padding: 20px 0;
 }
 .vermas:active{
 	color: #2AA8A5;
 }
-	
+	/* ---------------------------- ACÁ ARRANCA FORMULARIO HOME MOBILE-------------------------------- */
+.formulario{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background:url("img/piedra.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.dejaopinion{
+	flex-direction: column;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.formhome{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	background: #F7F7F6;
+	border-radius: 18px;
+	margin: 20px 0;
+}
+
+
+
+
+
 /*---------------------------------- ACA ARRANCA ALQUILA TU BICI MOBILE ----------------- */
 .puestos {
-		padding: 100px 0 20px 40px
+		padding: 120px 0 20px 0;
 	}
 	
 .mapa {
 	width: 520px;
 	height: 480px;
 }
+	.alquila{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+		text-align: center;
+	}
 	
 .contenedor {
 	height: 100px;
@@ -998,13 +1049,16 @@ opacity: 70%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 0;
 }
 	
 .texto-form-verde {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	text-align: center;
-	padding: 40px 0px 20px 0px;
 	width: 100%;
-	box-sizing: none;
+	padding: 50px 0 0 0;
 }
 	
 .texto-form-abonar {
@@ -1019,16 +1073,15 @@ opacity: 70%;
 }
 	
 .form-alquilar {
-	width: 400px;
+	width: 100%;
 	justify-content: center;
 	padding-bottom: 50px;
-}
-.alquila {
-	padding-left: 0px;
 }
 	
 .comoalquilar {
 	align-items: center;
+	padding: 0 50px;
+	width: 100%;
 }
 	
 footer {
