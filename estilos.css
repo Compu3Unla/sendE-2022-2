@@ -173,7 +173,9 @@ align-items: center;
 /*--------------------------ACÁ ARRANCA EL PARTES DE LA BICI--------------------------------------*/
 .partes{
 	background-color: #F7F7F6;
+	align-self: center;
 }
+
 
 
 .labici{
