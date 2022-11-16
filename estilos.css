@@ -532,9 +532,10 @@ ul li{
 
 .buscador{
 	position: absolute;
-	top: 163px;
-	left: 65%;
+	top: 336px;
+	left: 25%;
 	width: 30%;
+	max-width: 800px;
 }
 
 .buscador input[type=text]{
